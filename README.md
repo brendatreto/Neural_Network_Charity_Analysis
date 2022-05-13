@@ -39,10 +39,10 @@ This structure was only capable of achieven a 72.75% accuracy
 
 *What steps did you take to try and increase model performance?*
 
-The first step was to work separately with th ASK_AMT feature, that alone increased the accuracy to 73.00%
-We later added a third layer with 10 neurons but the accuracy stayed at 73.00%
-The third attempt was to change the number of neurons per layer (80, 40, 20) with a minimum impact in accuracy 73.06%
-Our last attempt was to change the activation function to tahn
+- The first step was to work separately with th ASK_AMT feature, that alone increased the accuracy to 73.00%
+- We later added a third layer with 10 neurons but the accuracy stayed at 73.00%
+- The third attempt was to change the number of neurons per layer (80, 40, 20) with a minimum impact in accuracy 73.06%
+- Our last attempt was to change the activation function to tahn in the output layer but it had the opposite of the expected effect in the accuracy, decreasing to 72.75%
 
 ## Summary
 This deep learning neural network model did not reach the target of 75%. We could improve the accuracy by cleansing the dataset, but in order to do this, we would need to work together with the organization to better understand the data. 
